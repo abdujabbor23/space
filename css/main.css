@@ -110,6 +110,7 @@
 }
 .navigation-itm a:hover{
     border-bottom: solid;
+    transition: all 0.2s ease-in-out;
 }
 .navigation-itm.active a{
     border-bottom: solid;
@@ -222,6 +223,17 @@
     text-decoration: none;
     color:#FFFFFF;
 }
+.main-navigation_itm a:hover{
+    border-bottom:solid;
+    transition: all 0.2s ease-in-out;
+}
+.hover2 a{
+    border-bottom: solid;
+}
+div .bgcolor{
+    background-color: #fff;
+    opacity:1;
+}
 .aboutmy-moon{
     text-transform: uppercase;
     margin: 0px;
@@ -326,13 +338,9 @@
     margin: 10px;
     border-radius: 50%;
 }
-.colorwite{
-    background-color: #fff;
-    width: 15px;
-    height: 15px;
-    background-color: #fff;
-    margin: 10px;
-    border-radius: 50%;
+.dod-style:hover{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
 }
 .img-class_3{
     margin-left: auto;
@@ -376,6 +384,7 @@
 .span-1style{
     margin:auto;
     margin-top: 50px;
+    margin-left: 160px;
 }
 
 .span__2style{
@@ -387,7 +396,6 @@
     Line-height: 37px;
     Line-height: 100%;
     align-items: Center;
-   
     color: #FFFFFF;
     margin-top: 50px;
     border-style: solid;
@@ -396,8 +404,10 @@
     border-radius: 50%;
 }
 .havor:hover{
+    border-color: #fff;
     background-color: #fff;
     color: black;
+    transition: all 0.3s ease-in-out;
 }
 .tert__left-style4{
     margin-left: auto;
@@ -405,7 +415,19 @@
 }
 .img-4style{
     margin-left: auto;
-    margin-right: auto;
     margin-top: 50px;
+}
+.hover2.active a{
+    border-bottom: solid;
+}
+.bcgcolorwite{
+    background-color: #fff;
+}
+.span-1style a{
+    text-decoration: none;
+    color: #fff;
+}
+.span-1style a:hover{
+    color: black;
 }
 
